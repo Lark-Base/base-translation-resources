@@ -8,7 +8,8 @@
       "translations": {
         "zh": "多维表格",
         "zh-TW": "多維表格",
-        "ja": "Base"
+        "ja": "Base",
+        "fr": "Base"
       }
     },
     "record": {
@@ -36,6 +37,600 @@
         "zh": "分组条件",
         "zh-TW": "分組條件",
         "ja": "グループ化のルール"
+      }
+    },
+    "table": {
+      "partOfSpeech": "noun",
+      "definition": "tables in a base file",
+      "translations": {
+        "zh": "数据表",
+        "zh-TW": "多維表格資料表",
+        "ja": "テーブル"
+      }
+    },
+    "view": {
+      "partOfSpeech": "noun",
+      "definition": "A table can be displayed in different views - kanban,grid,gantt and gallary",
+      "translations": {
+        "zh": "视图",
+        "zh-TW": "視圖",
+        "ja": "ビュー"
+      }
+    },
+    "Kanban view": {
+      "partOfSpeech": "noun",
+      "definition": "In kanban view,cards represents work items and columns represents each stage of the process.",
+      "translations": {
+        "zh": "看板视图",
+        "zh-TW": "看板視圖",
+        "ja": "かんばんビュー"
+      }
+    },
+    "grid view": {
+      "partOfSpeech": "noun",
+      "definition": "In grid view,records are listed like spreadsheets.",
+      "translations": {
+        "zh": "表格视图",
+        "zh-TW": "表格視圖",
+        "ja": "グリッドビュー"
+      }
+    },
+    "gallery view": {
+      "partOfSpeech": "noun",
+      "definition": "In gallery view,records are displayed like cards.",
+      "translations": {
+        "zh": "画册视图",
+        "zh-TW": "圖庫視圖",
+        "ja": "ギャラリービュー"
+      }
+    },
+    "Gantt view": {
+      "partOfSpeech": "noun",
+      "definition": "In gantt view,records are organized by its timelines.",
+      "translations": {
+        "zh": "甘特视图",
+        "zh-TW": "甘特圖視圖",
+        "ja": "ガントビュー"
+      }
+    },
+    "filter": {
+      "partOfSpeech": "verb",
+      "definition": "The filter function will take dataset and return only the rows of data that meet the criteria you specify.",
+      "translations": {
+        "zh": "筛选",
+        "zh-TW": "篩選",
+        "ja": "フィルタ"
+      }
+    },
+    "group": {
+      "partOfSpeech": "verb",
+      "definition": "The records are categorized based on group types",
+      "translations": {
+        "zh": "分组",
+        "zh-TW": "分組",
+        "ja": "グループ化"
+      }
+    },
+    "sort": {
+      "partOfSpeech": "verb",
+      "definition": "To sort records in an ascending or descending order",
+      "translations": {
+        "zh": "排序",
+        "zh-TW": "排序",
+        "ja": "並べ替え"
+      }
+    },
+    "row height": {
+      "partOfSpeech": "noun",
+      "definition": "adjust the row height of the record",
+      "translations": {
+        "zh": "行高",
+        "zh-TW": "列高",
+        "ja": "行の高さ"
+      }
+    },
+    "field type": {
+      "partOfSpeech": "phrase",
+      "definition": "Type of field (rows 232-241). Date,person,attachment,checkbox,etc.",
+      "translations": {
+        "zh": "字段类型",
+        "zh-TW": "欄位類型",
+        "ja": "フィールドタイプ"
+      }
+    },
+    "text": {
+      "partOfSpeech": "noun",
+      "definition": "You can write in text under this field type",
+      "translations": {
+        "zh": "文本",
+        "zh-TW": "多行文字",
+        "ja": "テキスト"
+      }
+    },
+    "single option": {
+      "partOfSpeech": "noun",
+      "definition": "You can only select one option from the list under the field type",
+      "translations": {
+        "zh": "单选",
+        "zh-TW": "單選",
+        "ja": "単一選択"
+      }
+    },
+    "multiple options": {
+      "partOfSpeech": "noun",
+      "definition": "You can select multiple options from the list under the field type",
+      "translations": {
+        "zh": "多选",
+        "zh-TW": "多選",
+        "ja": "複数選択"
+      }
+    },
+    "link": {
+      "partOfSpeech": "noun",
+      "definition": "Hyperlink",
+      "translations": {
+        "zh": "链接",
+        "zh-TW": "連結",
+        "ja": "リンク"
+      }
+    },
+    "one-way link": {
+      "partOfSpeech": "verb",
+      "definition": "Link data with other tables without linking back",
+      "translations": {
+        "zh": "单向关联",
+        "zh-TW": "單向關聯",
+        "ja": "単方向関連"
+      }
+    },
+    "two-way link": {
+      "partOfSpeech": "verb",
+      "definition": "Link data with other tables and link back",
+      "translations": {
+        "zh": "双向关联",
+        "zh-TW": "雙向關聯",
+        "ja": "双方向関連"
+      }
+    },
+    "formula": {
+      "partOfSpeech": "noun",
+      "definition": "A field used to do calculations in a table",
+      "translations": {
+        "zh": "公式",
+        "zh-TW": "公式",
+        "ja": "数式"
+      }
+    },
+    "flow": {
+      "partOfSpeech": "noun",
+      "definition": "A field in base. A flow contains a series of steps that need to be completed in a process.",
+      "translations": {
+        "zh": "流程",
+        "zh-TW": "流程",
+        "ja": "フロー"
+      }
+    },
+    "smart import": {
+      "partOfSpeech": "noun",
+      "definition": "Bitable will automatically sort the data you import",
+      "translations": {
+        "zh": "智能导入",
+        "zh-TW": "智慧匯入",
+        "ja": "インポート"
+      }
+    },
+    "change icon": {
+      "partOfSpeech": "phrase",
+      "definition": "change the icon of bitable on homepage",
+      "translations": {
+        "zh": "自定义图标",
+        "zh-TW": "自訂圖示",
+        "ja": "カスタムアイコン"
+      }
+    },
+    "configure view": {
+      "partOfSpeech": "verb",
+      "definition": "Set view permission,can choose between public,Locked or private view",
+      "translations": {
+        "zh": "保护视图",
+        "zh-TW": "保護視圖",
+        "ja": "ビューを保護"
+      }
+    },
+    "public view": {
+      "partOfSpeech": "noun",
+      "definition": "Once you change a table to public view,all collaborators can edit view settings.",
+      "translations": {
+        "zh": "公共视图",
+        "zh-TW": "公用視圖",
+        "ja": "共有ビュー"
+      }
+    },
+    "locked view": {
+      "partOfSpeech": "noun",
+      "definition": "Once the view is locked,no one can edit its view configuration like filter,gruop or sort.",
+      "translations": {
+        "zh": "锁定视图",
+        "zh-TW": "鎖定視圖",
+        "ja": "ロックビュー"
+      }
+    },
+    "private view": {
+      "partOfSpeech": "noun",
+      "definition": "Once you change a table to private view,other collaborators can no longer access this view.",
+      "translations": {
+        "zh": "个人视图",
+        "zh-TW": "個人視圖",
+        "ja": "個人ビュー"
+      }
+    },
+    "index field": {
+      "partOfSpeech": "noun",
+      "definition": "The first field of the table",
+      "translations": {
+        "zh": "索引列",
+        "zh-TW": "索引欄",
+        "ja": "プライマリ列"
+      }
+    },
+    "protection settings": {
+      "partOfSpeech": "noun",
+      "definition": "The place to set up protection view for the table.",
+      "translations": {
+        "zh": "保护设置",
+        "zh-TW": "保護設定",
+        "ja": "保護設定"
+      }
+    },
+    "can manage": {
+      "partOfSpeech": "phrase",
+      "definition": "Users with that permission type can edit the view settings and permission settings.",
+      "translations": {
+        "zh": "可管理",
+        "zh-TW": "可管理",
+        "ja": "管理可能"
+      }
+    },
+    "protected fields": {
+      "partOfSpeech": "phrase",
+      "definition": "Fields that are protected,only visible to certain collaborators based on the protection settings",
+      "translations": {
+        "zh": "保护字段",
+        "zh-TW": "保護欄位",
+        "ja": "フィールドを保護"
+      }
+    },
+    "Base advanced permissions": {
+      "partOfSpeech": "noun",
+      "definition": "Advanced permissions feature allows the user to set specific permissions for individual records or fields.",
+      "translations": {
+        "zh": "多维表格高级权限",
+        "zh-TW": "多維表格進階權限",
+        "ja": "Base 高度な権限"
+      }
+    },
+    "form": {
+      "partOfSpeech": "noun",
+      "definition": "A type of view in Bitable. It can be sent to other users via Docs asistant for collecting information.",
+      "translations": {
+        "zh": "表单",
+        "zh-TW": "表單",
+        "ja": "フォーム"
+      }
+    },
+    "respondent": {
+      "partOfSpeech": "noun",
+      "definition": "User who is invited to fill in the form.",
+      "translations": {
+        "zh": "填写者",
+        "zh-TW": "填寫者",
+        "ja": "回答者"
+      }
+    },
+    "automation": {
+      "partOfSpeech": "noun",
+      "definition": "A feature that allows user to set up combinations of Triggers and Actions to help automate repetitive actions. Under automation feature, each new process is called a \"automation\".",
+      "translations": {
+        "zh": "自动化流程",
+        "zh-TW": "自動化流程",
+        "ja": "オートメーション"
+      }
+    },
+    "run": {
+      "partOfSpeech": "verb",
+      "definition": "A workflow will run automatically when the trigger conditions are met.",
+      "translations": {
+        "zh": "运行",
+        "zh-TW": "執行",
+        "ja": "実行"
+      }
+    },
+    "activate": {
+      "partOfSpeech": "verb",
+      "definition": "There's an \"Activate workflow\" toggle button. Once activated,the workflow becomes active and will be run when the trigger conditions are met.",
+      "translations": {
+        "zh": "启用",
+        "zh-TW": "啟用",
+        "ja": "有効にする"
+      }
+    },
+    "active": {
+      "partOfSpeech": "adj",
+      "definition": "Describes the state of certain workflows. A worflow can be active but not triggered.",
+      "translations": {
+        "zh": "运行中",
+        "zh-TW": "執行中",
+        "ja": "実行中"
+      }
+    },
+    "not activated": {
+      "partOfSpeech": "adj",
+      "definition": "Describes the state of certain workflows. If a workflow is not activated,it won't be run even when the trigger conditions are met.",
+      "translations": {
+        "zh": "未启用",
+        "zh-TW": "未啟用",
+        "ja": "無効中"
+      }
+    },
+    "step": {
+      "partOfSpeech": "noun",
+      "definition": "Everytime something changed in the table will be counted as a step. For example,step 1 or 2 etc. For each step,you can set a trigger and its subsequent action.",
+      "translations": {
+        "zh": "步",
+        "zh-TW": "步",
+        "ja": "ステップ"
+      }
+    },
+    "action": {
+      "partOfSpeech": "noun",
+      "definition": "When the trigger and the other conditions are met,the specified action(s) will be performed.",
+      "translations": {
+        "zh": "操作",
+        "zh-TW": "操作",
+        "ja": "操作"
+      }
+    },
+    "trigger": {
+      "partOfSpeech": "noun",
+      "definition": "A trigger is a pre-requisite for certain actions to take place. After you set a trigger,you could add 1 or more conditions that have to be met in order for the action to happen.",
+      "translations": {
+        "zh": "触发条件",
+        "zh-TW": "觸發條件",
+        "ja": "トリガー条件"
+      }
+    },
+    "trigger time": {
+      "partOfSpeech": "noun",
+      "definition": "When the trigger time arrives,the subsequent action happens.",
+      "translations": {
+        "zh": "触发时间",
+        "zh-TW": "觸發時間",
+        "ja": "実行時間"
+      }
+    },
+    "select a day or range": {
+      "partOfSpeech": "noun",
+      "definition": "Including yesterday,today,tomorrow,and the day after tomorrow.",
+      "translations": {
+        "zh": "自然时间",
+        "zh-TW": "自然時間",
+        "ja": "システム時間"
+      }
+    },
+    "dashboard": {
+      "partOfSpeech": "noun",
+      "definition": "The user can add a dashboard in bitable for more straightforward data analysis. On a dashboard,the user can add different types of charts using the data in the bitable.",
+      "translations": {
+        "zh": "仪表盘",
+        "zh-TW": "儀錶盤",
+        "ja": "ダッシュボード"
+      }
+    },
+    "Dashboard": {
+      "partOfSpeech": "noun",
+      "definition": "Feature name. With the Dashboard feature,the user can create many dashboards.",
+      "translations": {
+        "zh": "仪表盘",
+        "zh-TW": "儀錶盤",
+        "ja": "ダッシュボード"
+      }
+    },
+    "field customization menu": {
+      "partOfSpeech": "noun",
+      "definition": "業務小程式",
+      "translations": {
+        "zh": "字段菜单",
+        "zh-TW": "欄位功能表",
+        "ja": "フィールドメニュー"
+      }
+    },
+    "Base Assistant": {
+      "partOfSpeech": "noun",
+      "definition": "A bot for Base,performing the actions like adding or modifying records and sending messages to users in the automated worflow.",
+      "translations": {
+        "zh": "多维表格助手",
+        "zh-TW": "多維表格助手",
+        "ja": "Base アシスタント"
+      }
+    },
+    "phone number": {
+      "partOfSpeech": "noun",
+      "definition": "A field type,in which you can enter a phone number and can be used to import contacts on mobile.",
+      "translations": {
+        "zh": "电话号码",
+        "zh-TW": "電話號碼",
+        "ja": "電話番号"
+      }
+    },
+    "location": {
+      "partOfSpeech": "noun",
+      "definition": "A field type,with which you can either enter a location or choose from the map.",
+      "translations": {
+        "zh": "地理位置",
+        "zh-TW": "地理位置",
+        "ja": "位置"
+      }
+    },
+    "Lookup": {
+      "partOfSpeech": "noun",
+      "definition": "A field type developed based on the LOOKUP function. You can use lookup field to quickly find and reference data from the same or other tables that meet specified conditions.",
+      "translations": {
+        "zh": "查找引用",
+        "zh-TW": "查閱參照",
+        "ja": "LOOKUP"
+      }
+    },
+    "role": {
+      "partOfSpeech": "noun",
+      "definition": "A permission group used in Bitable advanced permissions feature. You can assign collaborators with rows/columns permissions and add them as the role members.",
+      "translations": {
+        "zh": "角色",
+        "zh-TW": "角色",
+        "ja": "役割"
+      }
+    },
+    "HTTP request": {
+      "partOfSpeech": "verb",
+      "definition": "An action in Bitable's automated workflow. With the automated workflow settings,network requests can be sent manually or automatically to specified URLs,which allows calls to third-party platforms.",
+      "translations": {
+        "zh": "发送 HTTP 请求",
+        "zh-TW": "傳送 HTTP 請求",
+        "ja": "HTTP リクエストを送信"
+      }
+    },
+    "Forms": {
+      "partOfSpeech": "noun",
+      "definition": "Product name",
+      "translations": {
+        "zh": "问卷",
+        "zh-TW": "問卷",
+        "ja": "フォーム"
+      }
+    },
+    "Work Mini Apps": {
+      "partOfSpeech": "noun",
+      "definition": "",
+      "translations": {
+        "zh": "业务小程序",
+        "zh-TW": "業務小程式",
+        "ja": "業務マスタ"
+      }
+    },
+    "extension": {
+      "partOfSpeech": "noun",
+      "definition": "Custom functionality developed by third-party developers in Base",
+      "translations": {
+        "zh": "插件",
+        "zh-TW": "外掛程式",
+        "ja": "プラグイン"
+      }
+    },
+    "Workflow": {
+      "partOfSpeech": "noun",
+      "definition": "A workflow is a sequence of tasks that are part of a larger process or goal. Compared to automations, workflows support medium to high complexity processes such as if/else conditions.",
+      "translations": {
+        "zh": "工作流",
+        "zh-TW": "工作流程",
+        "ja": "フロー"
+      }
+    },
+    "Layout": {
+      "partOfSpeech": "noun",
+      "definition": "This is a block in the dashboard that can add  and combine different types of blocks such as charts, views and extensions.",
+      "translations": {
+        "zh": "组合布局",
+        "zh-TW": "組合版面配置",
+        "ja": "レイアウト"
+      }
+    },
+    "Bezo": {
+      "partOfSpeech": "noun",
+      "definition": "Bezo is the overseas version of Base, a platform where anyone can create the tools they need to run every aspect of their work.",
+      "translations": {
+        "zh": "Bezo",
+        "zh-TW": "Bezo",
+        "ja": "Bezo"
+      }
+    },
+    "Workspace": {
+      "partOfSpeech": "noun",
+      "definition": "Workspaces are spaces in the organization where teams can have a whole bunch of boards, folders, dashboards, docs, and forms",
+      "translations": {
+        "zh": "工作空间",
+        "zh-TW": "工作空間",
+        "ja": "ワークスペース"
+      }
+    },
+    "Loop": {
+      "partOfSpeech": "noun",
+      "definition": "Loop is a feature in the workflow that repeatedly executes a set of logic until a specified condition is reached.",
+      "translations": {
+        "zh": "循环",
+        "zh-TW": "循環",
+        "ja": "繰り返し"
+      }
+    },
+    "Base Lab": {
+      "partOfSpeech": "noun",
+      "definition": "Base lab is an entry that presents advanced features on the homepage to users, such as : Field shortcuts, AI-generated texts and dashboards.",
+      "translations": {
+        "zh": "多维表格实验室",
+        "zh-TW": "多維表格實驗室",
+        "ja": "Base Lab"
+      }
+    },
+    "Query Page": {
+      "partOfSpeech": "noun",
+      "definition": "Through query page, users can simply set or input query conditions without entering the base to find specified data.",
+      "translations": {
+        "zh": "查询页面/查询页",
+        "zh-TW": "查詢頁面/查詢頁",
+        "ja": "検索クエリ"
+      }
+    },
+    "Auto-send dashboard": {
+      "partOfSpeech": "phrase",
+      "definition": "Dashboard that is sent automatically based on the trigger conditions via automations.",
+      "translations": {
+        "zh": "自动推送仪表盘",
+        "zh-TW": "自動推播儀錶盤",
+        "ja": "ダッシュボードの自動送信"
+      }
+    },
+    "Smart color": {
+      "partOfSpeech": "noun",
+      "definition": "This is a feature empowered by AI. Users can click on \"Smart color\" button to generate a matching color palette.",
+      "translations": {
+        "zh": "智能配色",
+        "zh-TW": "智慧配色",
+        "ja": "スマートカラー"
+      }
+    },
+    "Conditional coloring": {
+      "partOfSpeech": "phrase",
+      "definition": "This is a feature name that users can apply coloring to the cells, fields or records by adding filter conditions.",
+      "translations": {
+        "zh": "背景色填充",
+        "zh-TW": "背景色填滿",
+        "ja": "条件付きカラーリング"
+      }
+    },
+    "Time Machine": {
+      "partOfSpeech": "noun",
+      "definition": "Time Machine is the new feature name of \"Edit history\" on sv6 version. In Time machine, you can view historical records in it and restore to a certain version.",
+      "translations": {
+        "zh": " Time Machine",
+        "zh-TW": "Time Machine",
+        "ja": " Time Machine"
+      }
+    },
+    "Add Fields To Group": {
+      "partOfSpeech": "phrase",
+      "definition": "Add multiple types of fields into a group, and manage these fields by the group",
+      "translations": {
+        "zh": "编组",
+        "zh-TW": "編組",
+        "ja": "フィールドのグルーピング"
       }
     }
   },
