@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "terms": {
+    "QRCode": {
+      "zh": "二维码",
+      "en": "QR Code",
+      "ja": "QRコード"
+    },
+    "Barcode": {
+      "zh": "条形码",
+      "en": "Barcode",
+      "ja": "バーコード"
+    },
+    "Template": {
+      "zh": "模板",
+      "en": "Template",
+      "ja": "テンプレート"
+    },
+    "Field": {
+      "zh": "字段",
+      "en": "Field",
+      "ja": "フィールド"
+    }
+  }
+}
